@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportMad</title>
+    <style>
+        /* Appliquer le style à la balise de titre */
+        h1 {
+            font-style: italic;
+            font-family: 'Broadway', sans-serif;
+            color: white;
+            text-shadow: 4px 4px 8px black; /* Taille d'ombre augmentée */
+            font-size: 2em; /* Taille de police deux fois plus grande */
+        }
+
+        /* Style de la section */
+        section {
+            display: flex; /* Utilisation de flexbox pour le positionnement côte à côte */
+            align-items: center; /* Centrer verticalement le contenu */
+        }
+
+        /* Style du texte dans la section */
+        section h2, section p {
+            margin: 0; /* Supprimer les marges par défaut pour un aspect plus propre */
+        }
+
+        /* Style de la div du texte */
+        .text {
+            flex: 1; /* La div du texte prend autant d'espace que possible */
+            padding-right: 20px; /* Ajouter une marge à droite pour l'espace entre le texte et le gif */
+        }
+
+        /* Style du gif dans la section */
+        section img {
+            max-width: 100%; /* Assurer que l'image ne dépasse pas la largeur de sa conteneur */
+            border: 2px solid black; /* Ajouter une bordure au gif */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Balise de titre avec les spécifications mentionnées -->
+    <h1>SportMad</h1>
+
+    <!-- Section d'introduction -->
+    <section>
+        <div class="text">
+            <h2>Introduction</h2>
+            <p>Bienvenue sur le site de la récupération sportive ! Après la présentation qui vous fera prendre conscience de l'importance de la récupération lors d'activités physiques (amateur ou professionnelle), vous y trouverez un support pour savoir comment traiter vos douleurs en fonction de leur localisation. SportMad vous accompagne dans l'atteinte de vos objectifs ! </p>
+        </div>
+        <div class="gif">
+            <img src="https://i.gifer.com/7G48.gif" alt="Gif Sportif">
+        </div>
+    </section>
+
+</body>
+</html>
