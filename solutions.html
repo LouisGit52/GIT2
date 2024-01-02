@@ -58,6 +58,14 @@
             text-align: center;
             padding: 10px;
         }
+
+        table, caption, th, td {
+        border: 2px solid skyblue;
+        border-collapse: collapse;
+        }
+        caption, th, td {
+        padding: 8px;
+        }
     </style>
 </head>
 <body>
@@ -66,15 +74,56 @@
     </header>
 
     <nav>
+        
         <ul>
-            
+           
             <li><a href="index.html">Accueil</a></li>
-            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="solutions.html">Equilibre</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown ">	<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Repas <span class="caret"></span></a>	<ul class="dropdown-menu" aria-labelledby="themes">		<li><a href="repas-préActivité.html">Pré-Act</a></li>		<li><a href="repas-postActivité.html">Post-Act</a></li>
         </ul>
+            
     </nav>
 
-    <h2> Quel type de repas ?</h2>
+    <h2>Quel type de repas ?</h2><br><br>
+
+    <div class="container mt-12">
+        <div class="row">
+            <div class="col-md-6">
+                <table>
+                    <tr> <th></th> <th>Petit-déjeuner léger</th> <th>Petit-déjeuner normal</th> <th>Petit-déjeuner copieux</th></tr>
+                    <tr> <td>Energie (kcal)</td> <td>775</td> <td>1 080</td> <td>1 300</td> </tr>      
+                    <tr> <td>Glucides (g)</td> <td>120</td> <td>172</td> <td>201</td> </tr>      
+                    <tr> <td>Protides (g)</td> <td>22</td> <td>36</td> <td>51</td> </tr>
+                    <tr> <td>Lipides (g)</td> <td>21</td> <td>30</td> <td>39</td> </tr>
+                    <tr> <td>Calcium (mg)</td> <td>476</td> <td>500</td> <td>521</td> </tr>
+                    <tr> <td>Magnésium (mg)</td> <td>105</td> <td>117</td> <td>127</td> </tr>
+                    <tr> <td>Sodium (mg)</td> <td>884</td> <td>1 244</td> <td>1 604</td> </tr>
+                    <tr> <td>Potassium (mg)</td> <td>1 322</td> <td>1 408</td> <td>1 474</td> </tr>
+                    <tr> <td>Caféine (mg)</td> <td>150</td> <td>150</td> <td>150</td> </tr>
+                </table><br><br>
+            </div>
+            <div class="col-md-6">
+                <br><h2>Rôle des différents nutriments</h2><br><br>
+                <ul>
+                    <li><strong>Glucides :</strong> Maintient les réserves énergétiques (en particulier glycogéniques)</li>
+                    <li><strong>Protides : </strong>Maintient les structures tissulaires (dont les muscles)</li>
+                    <li><strong>Lipides  : </strong>Aide à l’apport d’énergie</li>
+                    <li><strong>Calcium  : </strong>Aide au bon fonctionnement musculaire</li>
+                    <li><strong>Magnésium  : </strong>Aide à anticiper les pertes en magnésium inclues dans la sueur</li>
+                    <li><strong>Sodium  : </strong>Aide à compenser les pertes en sodium inclues dans la sueur</li>
+                    <li><strong>Potassium  : </strong>Aide au bon fonctionnement neuromusculaire</li>
+                    <li><strong>Caféine  : </strong>Favorise l’utilisation des graisses à l’exercice afin de retarder l’épuisement des stocks de glycogène</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 
     <footer>
         &copy; 2023 Sport Mad. All rights reserved.
@@ -82,12 +131,8 @@
 </body>
 </html>
 
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
-   
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 
 
 
